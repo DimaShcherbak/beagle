@@ -1,0 +1,22 @@
+{
+    "name": "sdn/module-testpage",
+    "description": "create test page",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SDN\\TestPage\\": ""
+        }
+    }
+}
